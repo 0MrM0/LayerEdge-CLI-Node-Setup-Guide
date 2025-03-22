@@ -9,13 +9,7 @@ git clone https://github.com/YourUsername/Layeredge-CLI-Setup.git
 cd Layeredge-CLI-Setup
 ```
 
-## 2. Installing Prerequisites
-Run the prerequisite installation nasscript:
-```
-./scripts/setup.sh
-```
-
-## 3. Environmental settings
+## 2. Environmental settings
 Paste the wallet settings and other environmental variables into the .env file.
 Environmental Settings File (.env):
 
@@ -31,6 +25,11 @@ POINTS_API: API address to access node data.
 
 PRIVATE_KEY: The private key of your wallet that is needed to register Nood.
 
+## 3. Installing Prerequisites
+Run the prerequisite installation nasscript:
+```
+./scripts/setup.sh
+```
 
 ## 4. Implementation of Nood
 To set up ZK-Prover(Merkle) & Node, run the Node Start script:
