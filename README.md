@@ -18,11 +18,17 @@ Run the prerequisite installation nasscript:
 ##3. Environmental settings
 Paste the wallet settings and other environmental variables into the .env file.
 Environmental Settings File (.env):
+
 This is the most important part because you need to enter the necessary environmental variables for the Lighter Edge CLI. These variables include your URLs, contract addresses, and private key.
+
 GRPC_URL: This URL corresponds to the GRPC server address that your node is communicating with.
+
 CONTRACT_ADDR: The smart contract address that your node interacts with.
+
 ZK_PROVER_URL: The address of the ZK Prover service used for calculations.
+
 POINTS_API: API address to access node data.
+
 PRIVATE_KEY: The private key of your wallet that is needed to register Nood.
 
 
@@ -56,8 +62,11 @@ Replace {walletAddress} with your actual wallet address.
 
 ##Important Notes:
 A CLI wallet can only be connected to a dashboard wallet.
+
 can use diffrent wallet other connected to dashbord for Browser-Based Node.
+
 Can use a different wallet than the wallet connected to the dashbord for a browser-based node but you need to make sure to connect to the volt that is in the Connect dashboard.
+
 Connecting to the dashboard is essential even if the CLI wallet and dashboard are similar.
 
 ##8. Common problems
