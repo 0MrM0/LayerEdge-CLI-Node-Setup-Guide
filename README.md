@@ -36,6 +36,21 @@ To set up ZK-Prover(Merkle) & Node, run the Node Start script:
 ```
 ./scripts/start-node.sh
 ```
+### On Ubuntu (WSL)
+If you are using **Ubuntu on Windows (WSL)**, navigate to the directory where your repository is cloned. You can access your Windows files under the `/mnt/` folder in WSL.
+
+1. Open your Ubuntu terminal (WSL).
+2. Navigate to the directory where you have cloned your repository:
+
+```
+   cd /mnt/e/Layeredge-CLI-Setup/LayerEdge-CLI-Node-Setup-Guide
+```
+and in the end:
+
+```
+bash setup.sh
+bash start-node.sh
+```
 
 ## 5. Monitoring & Logs
 To view your node logs and status, use the following command:
