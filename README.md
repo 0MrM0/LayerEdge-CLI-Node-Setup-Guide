@@ -5,8 +5,8 @@ This is the guide to setting up Node Lighter Edge with the help of CLI.
 ## 1. Cloning the repository
 First, clone the repository:
 ```
-git clone https://github.com/YourUsername/Layeredge-CLI-Setup.git
-cd Layeredge-CLI-Setup
+git clone https://github.com/0MrM0/LayerEdge-CLI-Node-Setup-Guide.git
+cd LayerEdge-CLI-Node-Setup-Guide
 ```
 
 ## 2. Environmental settings
